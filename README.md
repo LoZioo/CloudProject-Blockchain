@@ -33,6 +33,7 @@ Cloud project Blockchain section repository.
 - [compile-ansible-hosts.sh](compile-ansible-hosts.sh): generate the `hosts.ini` file.
 - [playbook-run.sh](playbook-run.sh): run the specified Ansible playbook inside the [playbooks](playbooks) folder.
 - [playbook-run-all.sh](playbook-run-all.sh): automatically run every Ansible playbook inside the [playbooks](playbooks) folder (prefixed order).
+- [docker-compose.yml](docker-compose.yml): bring up the application by using the `docker-compose` plugin.
 - [requirements.txt](requirements.txt): Ansible python dependencies.
 
 ## Playbooks for provisioning
