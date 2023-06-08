@@ -13,3 +13,4 @@ echo "[blockchain:vars]" >> $HOST_INI
 echo "ansible_ssh_private_key_file=$SECRET_KEY" >> $HOST_INI
 echo "ansible_user=$USER" >> $HOST_INI
 echo "dockerhub_image=$DOCKERHUB_IMAGE" >> $HOST_INI
+echo "repo_name=CloudProject-Blockchain" >> $HOST_INI
