@@ -11,4 +11,3 @@
       ansible.posix.synchronize:
         src: "../../../{{ repo_name }}"
         dest: ""
-        delete: true
