@@ -168,18 +168,8 @@ app.post("/block/add", async (req: Request, res: Response) => {
 });
 
 app.post("/block/get", async (req: Request, res: Response) => {
-	const block: CloudBlock_t = req.body;
-
-	try {
-		assert(is_CloudBlock_t(block));
-	}
-
-	catch(e){
-		res.sendStatus(400);
-		return;
-	}
-
 	log(format("Sending blocks to %s.", req.ip));
+
 	res.contentType("application/json");
 	res.send(await loadFromFile(DB_FILE));
 });
