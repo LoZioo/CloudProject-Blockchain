@@ -132,7 +132,7 @@ app.get("/", (req: Request, res: Response) => {
 				method:				"post",
 				body:					null,
 				bodyType:			null,
-				returns:			"Array<unknown>",
+				returns:			"Array<BlockchainBlock_t>",
 				description:	"Returns every saved block."
 			}
 		]
