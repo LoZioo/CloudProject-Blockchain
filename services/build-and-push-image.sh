@@ -16,4 +16,4 @@ fi
 cd "$IMAGE_NAME"
 
 # Build and push the image.
-docker buildx build --push --platform $BUILD_PLATFORMS -t $DOCKERHUB_USER/$IMAGE_NAME:latest .
+docker buildx build --push --platform $BUILD_PLATFORMS -t $DOCKERHUB_IMAGE .
