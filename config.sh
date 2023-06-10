@@ -8,4 +8,4 @@ SERVER_BC_ADDRESS="90.147.185.8"
 
 # Docker buildx settings.
 BUILD_PLATFORMS="linux/amd64"
-DOCKERHUB_IMAGE="lozioo/blockchain:latest"
+DOCKERHUB_USER="lozioo"
