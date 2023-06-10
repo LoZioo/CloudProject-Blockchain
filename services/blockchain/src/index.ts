@@ -117,7 +117,7 @@ app.use(bodyParser.json());		// Now Express can decode the application/json body
 app.get("/", (req: Request, res: Response) => {
 	// Available endpoints.
 	const endpoints = {
-		service: "add-block",
+		service: "blockchain",
 		endpoints: [
 			{
 				endpoint:			"/block/add",
